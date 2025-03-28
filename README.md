@@ -42,7 +42,7 @@ Data cleaning was performed using a DataBrew recipe to apply transformations sys
 - Renamed columns for consistency (e.g., `BUSINESSOPERATOR` → `business_operator`).
 - Removed special characters and extra whitespace from `business_operator` and `Street` columns.
 
-**Image 3: The cleaned dataset was saved in S3 under `databrew-output`.*
+**Image 3: The cleaned dataset was saved in S3 under `databrew-output`.**
 ![Data Cleaning Step 1](images/cleaning_data.png)
 
 **Image 4: Data Cleaning**
