@@ -33,7 +33,7 @@ A profiling job was created to generate summary statistics on the dataset. Data 
 - Missing values identification
 - Numeric and categorical distributions
 
-**Image 2: *The profiling output was stored in the `databrew-output` folder in S3.*
+**Image 2: The profiling output was stored in the `databrew-output` folder in S3.*
 ![Data Profiling](images/profile_data.png)
 
 ## Step 3: Data Cleaning
@@ -42,10 +42,10 @@ Data cleaning was performed using a DataBrew recipe to apply transformations sys
 - Renamed columns for consistency (e.g., `BUSINESSOPERATOR` → `business_operator`).
 - Removed special characters and extra whitespace from `business_operator` and `Street` columns.
 
-**Image 3: *The cleaned dataset was saved in S3 under `databrew-output`.*
+**Image 3: The cleaned dataset was saved in S3 under `databrew-output`.*
 ![Data Cleaning Step 1](images/cleaning_data.png)
 
-**Image 4: *Data Cleaning**
+**Image 4: Data Cleaning**
 ![Data Cleaning Step 2](images/cleaning2_data.png)
 
 ## Step 4: Data Cataloging
@@ -55,7 +55,7 @@ The cleaning recipe was published to AWS DataBrew, ensuring repeatability and au
 
 The final dataset and cleaning recipe were stored in S3 for future use.
 
-**Image 5: *The final dataset and cleaning recipe were stored in S3 for future use.**
+**Image 5: The final dataset and cleaning recipe were stored in S3 for future use.**
 ![Dataset saved in S3](images/cataloging_data.png)
 
 ## Step 5: Data Summarization
