@@ -158,4 +158,3 @@ The ETL pipeline successfully processed **148 records**, ensuring data security,
 
 ---
 
-This portfolio showcases my expertise in AWS-based data processing, ETL pipeline implementation, and data governance. 🚀
