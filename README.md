@@ -72,6 +72,7 @@ Key insights derived from profiling, cleaning, and transformation:
 - **total_units:** Property sizes varied from a few units to over 200.
 - **Data Quality:** Missing coordinates were identified and addressed.
 
+**Image 6: Summarization Pipeline**  
 ![Summarized Data](images/summary_data.png)
 
 ---
@@ -129,6 +130,7 @@ Key insights from the analysis:
 The objective was to construct an ETL pipeline using AWS Glue to analyze `Operating Permits - Water Systems` data from the City of Vancouver. The key goal was to determine the percentage of active Cooling Water Tower permits.
 
 AWS Glue, a fully managed ETL service, was used for data transformation, cataloging, and loading. Supporting AWS services included S3 for storage.
+**Image 7: Visual ETL**  
 ![Summarized Data](images/visual_etl.png)
 
 ### **Step 5: Data Analysis**
