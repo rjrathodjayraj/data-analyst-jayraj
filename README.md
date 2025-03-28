@@ -34,7 +34,7 @@ A profiling job was created to generate summary statistics on the dataset. Data 
 
 The profiling output was stored in the `databrew-output` folder in S3.
 
-![Data Profiling](images/data_profile.png)
+![Data Profiling](images/profile_data.png)
 
 ## Step 3: Data Cleaning
 Data cleaning was performed using a DataBrew recipe to apply transformations systematically. The following operations were applied:
@@ -44,8 +44,8 @@ Data cleaning was performed using a DataBrew recipe to apply transformations sys
 
 The cleaned dataset was saved in S3 under `databrew-output`.
 
-![Data Cleaning Step 1](fig3.png)
-![Data Cleaning Step 2](fig4.png)
+![Data Cleaning Step 1](cleaning_data.png)
+![Data Cleaning Step 2](cleaning2_data.png)
 
 ## Step 4: Data Cataloging
 The cleaning recipe was published to AWS DataBrew, ensuring repeatability and auditability (Pradeep-Misra, 2021). This allowed:
@@ -54,7 +54,7 @@ The cleaning recipe was published to AWS DataBrew, ensuring repeatability and au
 
 The final dataset and cleaning recipe were stored in S3 for future use.
 
-![Dataset saved in S3](images/data_cataloging.png)
+![Dataset saved in S3](images/cataloging_data.png)
 
 ## Step 5: Data Summarization
 Key insights derived from profiling, cleaning, and transformation:
@@ -70,7 +70,7 @@ Key insights derived from profiling, cleaning, and transformation:
 - **total_units:** Property sizes varied from a few units to over 200.
 - **Data Quality:** Missing coordinates were identified and addressed.
 
-![Summarized Data](fig7.png)
+![Summarized Data](summary_data.png)
 
 ---
 
