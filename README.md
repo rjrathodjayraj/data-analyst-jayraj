@@ -127,6 +127,7 @@ Key insights from the analysis:
 The objective was to construct an ETL pipeline using AWS Glue to analyze `Operating Permits - Water Systems` data from the City of Vancouver. The key goal was to determine the percentage of active Cooling Water Tower permits.
 
 AWS Glue, a fully managed ETL service, was used for data transformation, cataloging, and loading. Supporting AWS services included S3 for storage.
+![Summarized Data](images/visual_etl.png)
 
 ### **Step 5: Data Analysis**
 The rental standards dataset was managed under AWS Glue Data Catalog as `report-data-catalog-jay` and `report-pp2-db-jay`. This structure enabled effective data queries, transformations, and analysis of unresolved by-law issue data from licensed rental properties.
