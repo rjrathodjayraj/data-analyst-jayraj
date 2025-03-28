@@ -22,7 +22,7 @@ The dataset, `rental-standards-current-issues.csv`, was ingested into AWS DataBr
 - Configured settings: first row as headers, comma as delimiter
 - Saved dataset as `rental-standards-dataset` in DataBrew
 
-![Data stored in S3](fig1.png)
+![Data stored in S3](images/data_ingestion.png)
 
 ## Step 2: Data Profiling
 A profiling job was created to generate summary statistics on the dataset. Data profiling helps assess data quality, completeness, and potential issues before cleaning (Agrawal, 2024).
