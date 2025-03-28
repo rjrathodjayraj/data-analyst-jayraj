@@ -159,6 +159,9 @@ A comprehensive monitoring system was implemented using AWS tools:
 - **AWS CloudWatch**, Glue job metrics, and Athena query logs ensured real-time monitoring.
 - **Notifications** were triggered for ETL failures or unexpected behavior, ensuring rapid troubleshooting.
 - **DataBrew Profiling** helped detect anomalies and maintain data quality.
+- 
+**Image 8: Data Monitoring**
+  ![Monitoried Data](images/summary_data.png)  
 
 The ETL pipeline successfully processed **148 records**, ensuring data security, governance, and quality compliance. The final output was stored for further analysis and reporting.
 
