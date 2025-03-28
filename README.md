@@ -33,7 +33,7 @@ A profiling job was created to generate summary statistics on the dataset. Data 
 - Missing values identification
 - Numeric and categorical distributions
 
-**Image 2: The profiling output was stored in the `databrew-output` folder in S3.*
+**Image 2: The profiling output was stored in the `databrew-output` folder in S3.**
 ![Data Profiling](images/profile_data.png)
 
 ## Step 3: Data Cleaning
