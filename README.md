@@ -44,8 +44,8 @@ Data cleaning was performed using a DataBrew recipe to apply transformations sys
 
 The cleaned dataset was saved in S3 under `databrew-output`.
 
-![Data Cleaning Step 1](cleaning_data.png)
-![Data Cleaning Step 2](cleaning2_data.png)
+![Data Cleaning Step 1](images/cleaning_data.png)
+![Data Cleaning Step 2](images/cleaning2_data.png)
 
 ## Step 4: Data Cataloging
 The cleaning recipe was published to AWS DataBrew, ensuring repeatability and auditability (Pradeep-Misra, 2021). This allowed:
@@ -70,7 +70,7 @@ Key insights derived from profiling, cleaning, and transformation:
 - **total_units:** Property sizes varied from a few units to over 200.
 - **Data Quality:** Missing coordinates were identified and addressed.
 
-![Summarized Data](summary_data.png)
+![Summarized Data](images/summary_data.png)
 
 ---
 
