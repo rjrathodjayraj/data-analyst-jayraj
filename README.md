@@ -22,6 +22,7 @@ The dataset, `rental-standards-current-issues.csv`, was ingested into AWS DataBr
 - Configured settings: first row as headers, comma as delimiter
 - Saved dataset as `rental-standards-dataset` in DataBrew
 
+**Image 1: Data Ingestion Process**
 ![Data stored in S3](images/data_ingestion.png)
 
 ## Step 2: Data Profiling
