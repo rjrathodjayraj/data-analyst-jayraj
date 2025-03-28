@@ -34,7 +34,7 @@ A profiling job was created to generate summary statistics on the dataset. Data 
 
 The profiling output was stored in the `databrew-output` folder in S3.
 
-![Data Profiling](fig2.png)
+![Data Profiling](images/data_profile.png)
 
 ## Step 3: Data Cleaning
 Data cleaning was performed using a DataBrew recipe to apply transformations systematically. The following operations were applied:
@@ -54,7 +54,7 @@ The cleaning recipe was published to AWS DataBrew, ensuring repeatability and au
 
 The final dataset and cleaning recipe were stored in S3 for future use.
 
-![Dataset saved in S3](fig6.png)
+![Dataset saved in S3](images/data_cataloging.png)
 
 ## Step 5: Data Summarization
 Key insights derived from profiling, cleaning, and transformation:
